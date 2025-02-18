@@ -55,6 +55,8 @@ $generator->disableUniqueEmails();
 
 If it cannot generate a unique email, it throws an instance of `CannotGenerateUniqueEmailException`.
 
+Note that in order to see a conflict in the email address, the name would have to exactly match, and it would have to exhaust over 3,500 email domains. 
+
 ## Photos
 
 The photos are designed to appear to match the generated gender for consistency, and are AI generated. Note that the `getPhoto()` method returns the full path to the file, to use as required.

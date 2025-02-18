@@ -188,9 +188,6 @@ class Generator
     protected function randomPhoto(string $gender): string
     {
         $dir = sprintf('%s/../assets/headshots/%s', __DIR__, $gender);
-        if(file_exists($dir)) {
-            var_dump('EXISTS');
-        }
         $paths = array_map(
             function(string $path) {
                 return realpath($path);
