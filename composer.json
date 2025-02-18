@@ -1,0 +1,21 @@
+{
+    "name": "lukaswhite/people-generator",
+    "description": "Generate random people information",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lukaswhite\\PeopleGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lukas White",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "require": {}
+}
